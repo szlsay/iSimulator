@@ -22,7 +22,7 @@ class BarManager {
     private init() {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         statusItem.image = #imageLiteral(resourceName: "statusItem_icon")
-        statusItem.image?.isTemplate = true
+        statusItem.image?.isTemplate = false
         statusItem.menu = menu
         addWatch()
         refresh()
