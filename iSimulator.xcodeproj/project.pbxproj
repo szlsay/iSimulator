@@ -225,7 +225,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = niels.jin;
+				ORGANIZATIONNAME = stszl.cn;
 				TargetAttributes = {
 					292EAD9F1F458B3D009FC1ED = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -485,7 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CODE_SIGN_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = niels.jin.iSimulator;
+				PRODUCT_BUNDLE_IDENTIFIER = st.iSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -510,7 +510,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CODE_SIGN_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = niels.jin.iSimulator;
+				PRODUCT_BUNDLE_IDENTIFIER = st.iSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

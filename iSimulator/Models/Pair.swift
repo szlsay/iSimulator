@@ -2,8 +2,8 @@
 //  Pair.swift
 //  iSimulator
 //
-//  Created by 靳朋 on 2017/11/15.
-//  Copyright © 2017年 niels.jin. All rights reserved.
+//  Created by 沈兆良 on 2018/3/2.
+//  Copyright © 2018年 stszl.cn. All rights reserved.
 //
 
 import Foundation

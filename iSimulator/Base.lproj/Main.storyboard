@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -713,12 +713,12 @@
         <scene sceneID="cVR-0v-kZ3">
             <objects>
                 <viewController id="DTO-21-MCy" customClass="PreferencesViewController" customModule="iSimulator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="BIT-Qn-M0h">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="216"/>
+                    <view key="view" misplaced="YES" id="BIT-Qn-M0h">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="165"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <tabView type="noTabsNoBorder" translatesAutoresizingMaskIntoConstraints="NO" id="CHe-bh-P1z">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="216"/>
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="160"/>
                                 <font key="font" metaFont="system"/>
                                 <tabViewItems>
                                     <tabViewItem label="General" identifier="General" id="MMc-6q-Qow">
@@ -826,8 +826,8 @@
                                                     </textFieldCell>
                                                 </textField>
                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qEs-el-JTl">
-                                                    <rect key="frame" x="178" y="30" width="187" height="32"/>
-                                                    <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" title="Copyright © 2017年 niels.jin. All rights reserved." id="8aD-SR-6WI">
+                                                    <rect key="frame" x="178" y="30" width="156" height="32"/>
+                                                    <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" title="Copyright © 2018年 st. All rights reserved." id="8aD-SR-6WI">
                                                         <font key="font" metaFont="cellTitle"/>
                                                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -946,6 +946,6 @@ You can use the following two ways:</string>
         <image name="NSPreferencesGeneral" width="32" height="32"/>
         <image name="Xcode" width="128" height="128"/>
         <image name="about" width="128" height="128"/>
-        <image name="linkDirectory" width="256" height="256"/>
+        <image name="linkDirectory" width="512" height="512"/>
     </resources>
 </document>
