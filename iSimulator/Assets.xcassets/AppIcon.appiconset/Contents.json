@@ -3,61 +3,61 @@
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "icon_16x16.png",
+      "filename" : "IMG_8360MacMicro_16pt.png",
       "scale" : "1x"
     },
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "icon_16x16@2x.png",
+      "filename" : "IMG_8360MacMicro_16pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "icon_32x32.png",
+      "filename" : "IMG_8360MacSmall_32pt.png",
       "scale" : "1x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "icon_32x32@2x.png",
+      "filename" : "IMG_8360MacSmall_32pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "icon_128x128.png",
+      "filename" : "IMG_8360MacMedium_128pt.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "icon_128x128@2x.png",
+      "filename" : "IMG_8360MacMedium_128pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "icon_256x256.png",
+      "filename" : "IMG_8360MacLarge_256pt.png",
       "scale" : "1x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "icon_256x256@2x.png",
+      "filename" : "IMG_8360MacLarge_256pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "icon_512x512.png",
+      "filename" : "IMG_8360MacHuge_512pt.png",
       "scale" : "1x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "icon_512x512@2x.png",
+      "filename" : "IMG_8360MacHuge_512pt@2x.png",
       "scale" : "2x"
     }
   ],

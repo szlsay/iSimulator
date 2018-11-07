@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "linkDirectory.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "linkDirectory@2x.png",
+      "filename" : "IMG_8360MacHuge_512ptstore_1024pt.png",
       "scale" : "2x"
     },
     {

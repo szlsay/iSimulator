@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2905C3801FDA5FA700DD50B1 /* FBSimTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905C37B1FDA5FA700DD50B1 /* FBSimTool.swift */; };
 		291157AE1FB5501C000EE94F /* DevcieMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291157AD1FB5501C000EE94F /* DevcieMenuItem.swift */; };
 		29157C551F4D56400069BDB6 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29157C541F4D56400069BDB6 /* Shell.swift */; };
 		29157C5A1F4D65D70069BDB6 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29157C591F4D65D70069BDB6 /* DeviceType.swift */; };
@@ -28,11 +27,11 @@
 		29AFDFCC1FBD339000544CE5 /* DeviceTypeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFDFCB1FBD339000544CE5 /* DeviceTypeItem.swift */; };
 		29B227BA1FBD7B9F00BDE5BF /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B227B91FBD7B9F00BDE5BF /* PreferencesViewController.swift */; };
 		29B591981F581513006CDEC0 /* FileWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B591971F581513006CDEC0 /* FileWatch.swift */; };
-		3139951320805464006498AB /* FBControlCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313995102080545D006498AB /* FBControlCore.framework */; };
-		3139951420805464006498AB /* FBControlCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 313995102080545D006498AB /* FBControlCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3139951520805467006498AB /* FBSimulatorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3139950F2080545D006498AB /* FBSimulatorControl.framework */; };
-		3139951620805467006498AB /* FBSimulatorControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3139950F2080545D006498AB /* FBSimulatorControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39E068B2D55D474C5F0221DE /* Pods_iSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672B695D986F16A214844E75 /* Pods_iSimulator.framework */; };
+		67842C0821927DE90096453F /* FBSimTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67842C0321927DE90096453F /* FBSimTool.swift */; };
+		67842C0921927DE90096453F /* FBControlCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67842C0421927DE90096453F /* FBControlCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		67842C0B21927DE90096453F /* FBSimulatorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67842C0621927DE90096453F /* FBSimulatorControl.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		67842C0C21927DE90096453F /* FBDeviceControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67842C0721927DE90096453F /* FBDeviceControl.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,8 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3139951420805464006498AB /* FBControlCore.framework in Embed Frameworks */,
-				3139951620805467006498AB /* FBSimulatorControl.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +48,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2905C37B1FDA5FA700DD50B1 /* FBSimTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSimTool.swift; sourceTree = "<group>"; };
 		291157AD1FB5501C000EE94F /* DevcieMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevcieMenuItem.swift; sourceTree = "<group>"; };
 		29157C541F4D56400069BDB6 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
 		29157C591F4D65D70069BDB6 /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
@@ -74,10 +70,12 @@
 		29AFDFCB1FBD339000544CE5 /* DeviceTypeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTypeItem.swift; sourceTree = "<group>"; };
 		29B227B91FBD7B9F00BDE5BF /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		29B591971F581513006CDEC0 /* FileWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWatch.swift; sourceTree = "<group>"; };
-		3139950F2080545D006498AB /* FBSimulatorControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSimulatorControl.framework; sourceTree = "<group>"; };
-		313995102080545D006498AB /* FBControlCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBControlCore.framework; sourceTree = "<group>"; };
 		4AE8AC590281E9AE4294B098 /* Pods-iSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSimulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSimulator/Pods-iSimulator.release.xcconfig"; sourceTree = "<group>"; };
 		672B695D986F16A214844E75 /* Pods_iSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67842C0321927DE90096453F /* FBSimTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSimTool.swift; sourceTree = "<group>"; };
+		67842C0421927DE90096453F /* FBControlCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBControlCore.framework; sourceTree = "<group>"; };
+		67842C0621927DE90096453F /* FBSimulatorControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSimulatorControl.framework; sourceTree = "<group>"; };
+		67842C0721927DE90096453F /* FBDeviceControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBDeviceControl.framework; sourceTree = "<group>"; };
 		9FCCFEC715BBCD627A9D549B /* Pods-iSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSimulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSimulator/Pods-iSimulator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,25 +84,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3139951520805467006498AB /* FBSimulatorControl.framework in Frameworks */,
-				3139951320805464006498AB /* FBControlCore.framework in Frameworks */,
 				39E068B2D55D474C5F0221DE /* Pods_iSimulator.framework in Frameworks */,
+				67842C0B21927DE90096453F /* FBSimulatorControl.framework in Frameworks */,
+				67842C0C21927DE90096453F /* FBDeviceControl.framework in Frameworks */,
+				67842C0921927DE90096453F /* FBControlCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2905C37A1FDA5FA700DD50B1 /* FBSimulator */ = {
-			isa = PBXGroup;
-			children = (
-				2905C37B1FDA5FA700DD50B1 /* FBSimTool.swift */,
-				313995102080545D006498AB /* FBControlCore.framework */,
-				3139950F2080545D006498AB /* FBSimulatorControl.framework */,
-			);
-			path = FBSimulator;
-			sourceTree = "<group>";
-		};
 		29157C531F4D56310069BDB6 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,10 +139,10 @@
 		292EADA21F458B3D009FC1ED /* iSimulator */ = {
 			isa = PBXGroup;
 			children = (
+				67842C0221927DE90096453F /* FBSimulator */,
 				29157C581F4D62940069BDB6 /* Models */,
 				29157C531F4D56310069BDB6 /* Tools */,
 				292EADB21F458C89009FC1ED /* UI */,
-				2905C37A1FDA5FA700DD50B1 /* FBSimulator */,
 				292EADA31F458B3D009FC1ED /* AppDelegate.swift */,
 				292EADA71F458B3D009FC1ED /* Assets.xcassets */,
 				292EADA91F458B3D009FC1ED /* Main.storyboard */,
@@ -183,6 +172,17 @@
 				4AE8AC590281E9AE4294B098 /* Pods-iSimulator.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		67842C0221927DE90096453F /* FBSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				67842C0321927DE90096453F /* FBSimTool.swift */,
+				67842C0421927DE90096453F /* FBControlCore.framework */,
+				67842C0621927DE90096453F /* FBSimulatorControl.framework */,
+				67842C0721927DE90096453F /* FBDeviceControl.framework */,
+			);
+			path = FBSimulator;
 			sourceTree = "<group>";
 		};
 		8FBE8CBAA302CE78C738971E /* Frameworks */ = {
@@ -335,7 +335,7 @@
 				29157C5A1F4D65D70069BDB6 /* DeviceType.swift in Sources */,
 				291B421B1FBD75B500795FD4 /* PreferencesWindowController.swift in Sources */,
 				29AFDFCC1FBD339000544CE5 /* DeviceTypeItem.swift in Sources */,
-				2905C3801FDA5FA700DD50B1 /* FBSimTool.swift in Sources */,
+				67842C0821927DE90096453F /* FBSimTool.swift in Sources */,
 				29157C681F4E7C9B0069BDB6 /* AppMenuItem.swift in Sources */,
 				29157C551F4D56400069BDB6 /* Shell.swift in Sources */,
 				292EADA41F458B3D009FC1ED /* AppDelegate.swift in Sources */,
